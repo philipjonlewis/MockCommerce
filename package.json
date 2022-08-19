@@ -4,7 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run --prefix ./server test && exit 0",
+    "test:coverage": "npm run --prefix ./server test:coverage && exit 0",
+    "test:watch": "npm run --prefix ./server test:watch && exit 0",
+    "server-build": "npm run --prefix ./server build",
+    "client-build": "npm run --prefix ./client build",
+    "client-install": "cd ./client && npm install",
+    "server-install": "cd ./server && npm install",
+    "server": "npm run --prefix ./server dev",
+    "client": "npm run --prefix ./client dev",
+    "postinstall": "concurrently npm:server-install npm:client-install",
+    "dev": "concurrently npm:server npm:client"
   },
   "repository": {
     "type": "git",
@@ -16,5 +26,13 @@
   "bugs": {
     "url": "https://github.com/philipjonlewis/XenditExam_PhilipLewis/issues"
   },
-  "homepage": "https://github.com/philipjonlewis/XenditExam_PhilipLewis#readme"
+  "homepage": "https://github.com/philipjonlewis/XenditExam_PhilipLewis#readme",
+  "dependencies": {
+    "concurrently": "^7.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.6",
+    "nodemon": "^2.0.19",
+    "pre-push": "^0.1.3"
+  }
 }
