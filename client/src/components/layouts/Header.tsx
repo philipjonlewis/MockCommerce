@@ -12,19 +12,6 @@ const Header = ({ theme, setTheme }) => {
           <p>XenElectronic</p>
         </div>
       </NavLink>
-      <div className=''>
-        <button
-          onClick={() => {
-            theme == `light` ? setTheme(`dark`) : setTheme(`light`)
-          }}
-        >
-          {theme == 'light' ? (
-            <MoonIcon className='h-6 w-6 text-blue-500' />
-          ) : (
-            <SunIcon className='h-6 w-6 text-yellow-500' />
-          )}
-        </button>
-      </div>
     </header>
   )
 }
