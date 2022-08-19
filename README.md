@@ -12,6 +12,8 @@ philipjonlewis@gmail.com
 
 Full Stack E-Commerce App
 
+[API Documentation for the backend (made with postman)](https://documenter.getpostman.com/view/12540159/VUqoQJoi)
+
 ---
 
 ## Tech Stack
@@ -25,6 +27,8 @@ Full Stack E-Commerce App
 - Vite
 - React
 - Tailwind
+- Redux Toolkit
+- RTK Query
 
 #### Backend
 
@@ -121,6 +125,10 @@ Make sure to run these commands in the parent directory and not in the sub folde
    ```
    npm test:coverage
    ```
+
+## Security
+
+Added sanitize-html package to sanitize query parameters for the get all projects route and type checked ids in the verify cart content route
 
 ## Acknowledgments
 
