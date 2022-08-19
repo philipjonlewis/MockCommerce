@@ -20,7 +20,7 @@ Full Stack E-Commerce App
 
 ## Link to web app demo video - mobile
 
-[XenElectronic-Mobile](https://www.dropbox.com/s/iyag2teuxrln1ug/xenelectronic-mobile.mov?dl=0)
+[XenElectronic-Mobile](https://www.dropbox.com/s/cfmsyl52hmsrgm8/xendit-mobile.mov?dl=0)
 
 ## Link to static UI images
 
