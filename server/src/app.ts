@@ -59,7 +59,6 @@ app.use((req, res, next: NextFunction) => {
 
 databaseConnection();
 
-
 app.use(`${config.URL}/public`, publicRoutes);
 
 app.get('*', (req, res) => {

@@ -4,7 +4,7 @@ export const activeProjectSlice = createSlice({
   name: 'cartContent',
   initialState: [],
   reducers: {
-    addProductToCart: (state: any, actions: any) => {
+    addProductToCart: (state, actions) => {
       if (state.some((obj: any) => obj._id == actions.payload._id)) return
 
       const fromStorage = localStorage.getItem('cartItems') as any

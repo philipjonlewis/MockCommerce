@@ -20,8 +20,9 @@ const Cart = () => {
 
     if (itemList && itemList?.length >= 1) {
       verifyData(itemList).then((res) => {
-        if (res?.data?.length >= 1) {
-          setStoredCartitems(res.data)
+        console.log(res)
+        if (res?.data?.payload.length >= 1) {
+          setStoredCartitems(res.data.payload)
         }
       })
 

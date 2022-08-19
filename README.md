@@ -92,7 +92,24 @@ These instructions will get you a copy of the project up and running on your loc
    VITE_BACKEND_PORT=*REPLACE WITH BACKEND PORT*
    ```
 
-5. OPTIONAL - server already has a config.ts file but its also compatibe with .env for deployment. add .env in accordance to config file requirements.
+5. IMPORTANT - server already has a config.ts file with the following structure
+
+   ### Change config.frontendPort to the network address and NOT just localhost or else it will not work because of CORS
+
+   ```
+   export const config = {
+   environment: 'development',
+   URL: '/xenelectronic/api_v1',
+   port: 4000,
+   frontendPort: 'http://192.168.0.25:3000',
+   walkers: 'bXyCiyVVwxAmDCSTOSrYDOyGAhoFfHNq',
+   dbPort:
+   'mongodb://127.0.0.1:27017/xenelectronic'
+   };
+
+   ```
+
+---
 
 ### Development Mode
 
