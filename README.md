@@ -14,6 +14,18 @@ Full Stack E-Commerce App
 
 [API Documentation for the backend (made with postman)](https://documenter.getpostman.com/view/12540159/VUqoQJoi)
 
+## Link to web app demo video - web
+
+[XenElectronic-Web](https://www.dropbox.com/s/mrjj6e49wkmjhhx/xenelectronic-web.mov?dl=0)
+
+## Link to web app demo video - mobile
+
+[XenElectronic-Mobile](https://www.dropbox.com/s/iyag2teuxrln1ug/xenelectronic-mobile.mov?dl=0)
+
+## Link to static UI images
+
+[UI Images](https://www.dropbox.com/sh/ulbtwd9pi1zcxnt/AAAsEcHUCy2-D7e1DtMHEyxca?dl=0)
+
 ---
 
 ## Tech Stack
