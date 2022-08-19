@@ -16,6 +16,9 @@
     "postinstall": "concurrently npm:server-install npm:client-install",
     "dev": "concurrently npm:server npm:client"
   },
+  "pre-push": [
+    "test:coverage"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/philipjonlewis/XenditExam_PhilipLewis.git"
