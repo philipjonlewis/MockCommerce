@@ -1,4 +1,4 @@
-![Xendit Logo](https://i0.wp.com/www.startuplanes.com/wp-content/uploads/2022/05/Volta-Labs-63-1.png?fit=810%2C456&ssl=1)
+![Xendit Logo](https://www.xendit.co/wp-content/uploads/2020/03/XENDIT-LOGOArtboard-1@2x.png)
 
 # XenElectronic - Xendit Exam - Philip Jon E Lewis
 
@@ -102,70 +102,26 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Running the tests
 
-Make sure to run these commands in the parent directory and not in the sub folders.  There are three testing commands available
+Make sure to run these commands in the parent directory and not in the sub folders. There are three testing commands available
 
 1. Standard testing
 
    ```
    npm test
    ```
+
 2. Testing with UI (c/o vitest)
 
    ```
    npm test:watch
    ```
+
 3. Testing with coverage
 
    ```
    npm test:coverage
    ```
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-- [Maven](https://maven.apache.org/) - Dependency Management
-- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Xendit - for the very fulfilling and challenging exam in such a short time, thank you!
