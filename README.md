@@ -1,12 +1,6 @@
-![Xendit Logo](https://www.xendit.co/wp-content/uploads/2020/03/XENDIT-LOGOArtboard-1@2x.png)
 
-# XenElectronic - Xendit Exam - Philip Jon E Lewis
 
-### By Philip Jon E Lewis
-
-philipjonlewis@gmail.com
-
-**Position Applied : Full Stack Engineer**
+# Mock E-Commerce App
 
 ---
 
@@ -159,6 +153,3 @@ Make sure to run these commands in the parent directory and not in the sub folde
 
 Added sanitize-html package to sanitize query parameters for the get all projects route and type checked ids in the verify cart content route
 
-## Acknowledgments
-
-- Xendit - for the very fulfilling and challenging exam in such a short time, thank you!
