@@ -13,5 +13,5 @@ jobs:
         uses: actions/setup-node@v2
         with: 
           node-version: "18"
-      - run: npm run postinstall
-      - run: npm run postbuild
+      - run: npm run client-build
+      - run: npm run server-build
