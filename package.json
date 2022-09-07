@@ -21,15 +21,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/philipjonlewis/XenditExam_PhilipLewis.git"
+    "url": "git+https://github.com/philipjonlewis/MockCommerce.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/philipjonlewis/XenditExam_PhilipLewis/issues"
+    "url": "https://github.com/philipjonlewis/MockCommerce/issues"
   },
-  "homepage": "https://github.com/philipjonlewis/XenditExam_PhilipLewis#readme",
+  "homepage": "https://github.com/philipjonlewis/MockCommerce#readme",
   "dependencies": {
     "concurrently": "^7.3.0"
   },
