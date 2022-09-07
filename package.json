@@ -14,6 +14,7 @@
     "server": "npm run --prefix ./server dev",
     "client": "npm run --prefix ./client dev",
     "postinstall": "concurrently npm:server-install npm:client-install",
+    "postbuild": "concurrently npm:server-build npm:client-build",
     "dev": "concurrently npm:server npm:client"
   },
   "pre-push": [
